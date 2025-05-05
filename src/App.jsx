@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo } from 'react'
 import './App.css'
-import PoliticianCard from './components/PoliticianCard'
+import PoliticianCard from '../src/components/PoliticianCard.jsx'
 
 function App() {
   const [politicians, setPoliticians] = useState([])
